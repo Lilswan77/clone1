@@ -7,9 +7,13 @@ module.exports = {
     colors: {
       'black': '#131416',
       "dark": "#0a0a0b",
-      "white" : "#fff",
+      "white": "#fff",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': '0 0px 100px 0px rgba(0, 0, 0, 0.3)',
+      }
+    },
   },
   plugins: [],
 }

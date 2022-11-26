@@ -1,8 +1,10 @@
 const Home = () => {
   return (
-    <div className="text-white">
-      <div className="box-border h-[50rem] w-[50rem] p-10 m-auto border rounded-full border-white bg-dark">
-        Hello world
+    <div className="h-screen bg-black text-white">
+      <div className="h-[57rem] w-[60em] m-auto relative rounded-full flex items-center justify-center border shadow-3xl shadow-white bg-dark ">
+        <p className="text-xl">
+          Hello world
+        </p>
       </div>
     </div>
   );

@@ -6,9 +6,13 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <nav className="bg-black text-white pt-16 flex gap-x-8 ">
-          <Link className="ml-[5vw]" to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
+        <nav className="pt-5 flex gap-x-8 absolute w-screen drop-shadow-lg bg-black text-white">
+          <Link className="ml-[5vw] font-mono" to="/">
+            Home
+          </Link>
+          <Link className="font-mono" to="/projects">
+            Projects
+          </Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
