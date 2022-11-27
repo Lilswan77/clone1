@@ -6,7 +6,8 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <nav className="pt-5 flex gap-x-8 absolute w-screen drop-shadow-lg bg-black text-white">
+        <nav
+          className="pt-5 flex gap-x-8 absolute w-screen drop-shadow-lg bg-black text-white">
           <Link className="ml-[5vw] font-mono" to="/">
             Home
           </Link>
